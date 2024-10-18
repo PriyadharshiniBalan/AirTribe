@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="defe8818-814d-4ff9-8994-ed83f5301496" name="Changes" comment="Library Management System Low Level Design - Initial Commit">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/AirTribe.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+    <list default="true" id="defe8818-814d-4ff9-8994-ed83f5301496" name="Changes" comment="Removing unwanted files">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LibraryManagementSystem/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/LibraryManagementSystem/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,6 +43,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "LibraryManagementSystem__LowLevelDesign",
     "kotlin-language-version-configured": "true",
@@ -71,11 +68,31 @@
       <option name="project" value="LOCAL" />
       <updated>1729275386386</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Removing unwanted files">
+      <option name="closed" value="true" />
+      <created>1729276111873</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1729276111873</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Library Management System Low Level Design - Initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Library Management System Low Level Design - Initial Commit" />
+    <MESSAGE value="Removing unwanted files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removing unwanted files" />
   </component>
 </project>
