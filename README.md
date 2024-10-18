@@ -51,6 +51,7 @@ Factory Pattern:
 -----------------------------
 
 6.1 Entities
+---------------
   Book
     Attributes: Title, Author, ISBN, Genre, Publication Year
     Methods: Getters and Setters
@@ -64,6 +65,7 @@ Factory Pattern:
     Methods: addBookToInventory, removeBookFromInventory, viewCompleteInventoryDetails
 
 6.2 Services
+---------------
   Inventory
     Methods: getAllBooks, addBook, removeBook, filterBooks, getAvailableBooks, getBorrowedBooks
 
@@ -74,6 +76,7 @@ Factory Pattern:
     Methods: recordBorrow, recordReturn, getBorrowHistoryForPatron
 
 6.3 Interfaces
+---------------
   IInventory
   ILogger
   IBorrowingHistory
