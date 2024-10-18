@@ -1,9 +1,11 @@
 Library Management System Design Documentation
 
 **1. Introduction**
+-------------------
   The Library Management System (LMS) is designed to facilitate the management of library resources, including books, patrons, and borrowing processes. This document provides an overview of the system architecture, key components, design patterns used, and interfaces.
 
 **2. Objectives**
+---------------
   To manage library inventory efficiently.
   To track borrowing and returning of books.
   To support multiple search strategies for finding books.
@@ -11,6 +13,7 @@ Library Management System Design Documentation
   To maintain borrowing history for each patron.
 
 **3. System Architecture**
+--------------------------
   The LMS is structured using a layered architecture with the following layers:
 
 Presentation Layer: 
@@ -30,6 +33,7 @@ Interfaces:
   Abstract definitions for components, enabling flexible implementation. Examples include IInventory, ILogger, and ISearchStrategy.
 
 **4. Design Patterns Used**
+----------------------------
 Singleton Pattern: 
   Used for the Inventory class to ensure a single instance manages all books in the library.
 Strategy Pattern: 
@@ -40,9 +44,11 @@ Factory Pattern:
   Implemented in the creation of SearchStrategy objects.
 
 **5. Class Diagram**
+----------------------
   A UML class diagram illustrating the relationships between classes and interfaces (not included here, but you can create one using diagramming tools).
 
 **6. Component Descriptions**
+-----------------------------
 
 6.1 Entities
   Book
@@ -75,10 +81,13 @@ Factory Pattern:
   IObserver
 
 **7. Logging**
-    The system uses a custom logger class for logging events and actions within the application, ensuring that critical operations are recorded for auditing and debugging.
+----------------
+  The system uses a custom logger class for logging events and actions within the application, ensuring that critical operations are recorded for auditing and debugging.
 
 **8. Deployment**
-    The application can be deployed as a standalone Java application. Dependencies are managed using Gradle.
+------------------
+  The application can be deployed as a standalone Java application. Dependencies are managed using Gradle.
 
 **10. Conclusion**
-    This design document provides a comprehensive overview of the Library Management System, outlining its architecture, key components, design patterns, and testing strategies. The modular design allows for easy extension and maintenance of the system.
+---------------
+  This design document provides a comprehensive overview of the Library Management System, outlining its architecture, key components, design patterns, and testing strategies. The modular design allows for easy extension and maintenance of the system.
